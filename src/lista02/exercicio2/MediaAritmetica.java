@@ -1,9 +1,7 @@
 package lista02.exercicio2;
 
 import java.util.Scanner;
-
 public class MediaAritmetica {
-
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
@@ -18,7 +16,6 @@ public class MediaAritmetica {
         input.close();
         double mediaAritmetica = (nota1 + nota2 + nota3 + nota4) / 4;
         System.out.printf("Sua média aritmética é: %.1f", mediaAritmetica);
-
 
     }
 
