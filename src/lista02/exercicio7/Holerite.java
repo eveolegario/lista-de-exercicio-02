@@ -18,7 +18,7 @@ public class Holerite {
         double impostoDeRenda = salarioBrutoSemInss * 0.11;
         double salarioBrutoComImpostoDeRenda = salarioBruto - impostoDeRenda;
         double salarioLiquido = salarioBruto - inss - sindicato - impostoDeRenda;
-        System.out.printf("Seu salário com desconto do Imposto de Renda será: R$%.2f\n ", salarioBrutoComImpostoDeRenda);
+        System.out.printf("Seu salário bruto + desconto do Imposto de Renda será: R$%.2f\n ", salarioBrutoComImpostoDeRenda);
         System.out.printf("Você pagará ao INSS: R$%.2f\n ", inss);
         System.out.printf("Você pagará ao sindicato: R$%.2f\n ", sindicato);
         System.out.printf("Seu salário liquido será: R$%.2f\n ", salarioLiquido);
