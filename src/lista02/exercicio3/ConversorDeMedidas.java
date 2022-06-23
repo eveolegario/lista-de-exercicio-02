@@ -1,9 +1,7 @@
 package lista02.exercicio3;
 
 import java.util.Scanner;
-
 public class ConversorDeMedidas {
-
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
