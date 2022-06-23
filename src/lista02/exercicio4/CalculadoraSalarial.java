@@ -1,9 +1,7 @@
 package lista02.exercicio4;
 
 import java.util.Scanner;
-
 public class CalculadoraSalarial {
-
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Quanto você recebe por hora?: ");
